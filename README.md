@@ -58,48 +58,45 @@ pan-tompkins-python/
 ├── pyproject.toml
 ├── .gitignore
 └── README.md
+´´´
 
-Requisitos
+## Requisitos
 
 Python 3.10+
 
 Bibliotecas:
-
 numpy
-
 scipy
-
 wfdb
-
 matplotlib (opcional para visualização)
 
-Instalação das dependências:
+## Instalação das dependências:
 
+```text
 python -m pip install -r requirements.txt
-
-Instalação do projeto (modo desenvolvimento)
+´´´
+## Instalação do projeto (modo desenvolvimento)
 
 Na raiz do projeto:
-
+```text
 python -m pip install -e .
-
+´´´
 
 Isso permite importar o pacote pantompkins diretamente durante o
 desenvolvimento.
 
-Como executar
+## Como executar
 
 A partir da raiz do projeto:
-
+```text
 python -m pantompkins.cli
-
+´´´
 
 O programa irá solicitar:
 
 Record (ex: 100):
 
-
-Exemplo:
+## Exemplo:
 
 Record (ex: 100): 100
 [OK] record=100 fs=360 N=650000
