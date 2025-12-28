@@ -40,7 +40,7 @@ IEEE Transactions on Biomedical Engineering, 32(3), 230–236.
 
 ## Estrutura do projeto
 
-```text
+```
 pan-tompkins-python/
 │
 ├── src/
@@ -58,7 +58,7 @@ pan-tompkins-python/
 ├── pyproject.toml
 ├── .gitignore
 └── README.md
-´´´
+```
 
 ## Requisitos
 
@@ -72,15 +72,15 @@ matplotlib (opcional para visualização)
 
 ## Instalação das dependências:
 
-```text
+```
 python -m pip install -r requirements.txt
-´´´
+```
 ## Instalação do projeto (modo desenvolvimento)
 
 Na raiz do projeto:
-```text
+```
 python -m pip install -e .
-´´´
+```
 
 Isso permite importar o pacote pantompkins diretamente durante o
 desenvolvimento.
@@ -88,9 +88,9 @@ desenvolvimento.
 ## Como executar
 
 A partir da raiz do projeto:
-```text
+```
 python -m pantompkins.cli
-´´´
+```
 
 O programa irá solicitar:
 
