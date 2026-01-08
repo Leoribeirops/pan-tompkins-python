@@ -3,6 +3,18 @@ from __future__ import annotations
 import numpy as np
 import matplotlib.pyplot as plt
 
+def build_figures(
+    fs,
+    x,
+    x_hp,
+    mwi,
+    start_s=0,
+    dur_s=10,
+):
+    """
+    Constrói figuras matplotlib e as retorna,
+    sem chamar plt.show().
+    """
 
 def plot_signals(
     x_in: np.ndarray,
